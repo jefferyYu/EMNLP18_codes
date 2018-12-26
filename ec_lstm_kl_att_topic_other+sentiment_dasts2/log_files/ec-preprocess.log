@@ -1,0 +1,41 @@
+Word statistics files not found!
+Downloading... done!
+Unpacking... done!
+Reading twitter - 1grams ...
+generating cache file for faster loading...
+reading ngrams /opt/conda/lib/python3.6/site-packages/ekphrasis/stats/twitter/counts_1grams.txt
+Reading twitter - 2grams ...
+generating cache file for faster loading...
+reading ngrams /opt/conda/lib/python3.6/site-packages/ekphrasis/stats/twitter/counts_2grams.txt
+Reading twitter - 1grams ...
+vocab size = 17211.000
+max_length:85max_topic_length:25
+total sentence number:886
+after shuffle, total sentence number:6838
+total sentence number:3259
+total sentence number:886
+after shuffle, total sentence number:28631
+total sentence number:3259
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+word embedding small error
+vocab size:17211	 pretrained size:16394
+weight genenrated
+data and vocab built

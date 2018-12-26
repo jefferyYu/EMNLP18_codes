@@ -1,0 +1,101 @@
+2018-05-31 17:38:04.718706: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:38:04.718833: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:38:04.718884: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:38:04.718893: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:38:04.718900: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:38:04.847089: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-31 17:38:04.847465: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:00:05.0
+Total memory: 15.89GiB
+Free memory: 15.60GiB
+2018-05-31 17:38:04.847494: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-05-31 17:38:04.847503: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-05-31 17:38:04.847517: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:00:05.0)
+current dataset is SemEval18
+Building Graph attention_mechanism: self_att
+lambda: 0.05
+(?, 34000)
+attention_mechanism: self_att
+(?, 34000)
+optimization_mechanism: adam
+==================================================
+List of Variables:
+emb:0
+LSTM_Tgt/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/kernel:0
+LSTM_Tgt/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/bias:0
+LSTM_Tgt/Variable:0
+LSTM_Tgt/Variable_1:0
+LSTM_Tgt/Variable_2:0
+LSTM_Tgt/Variable_3:0
+LSTM_Shared/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/kernel:0
+LSTM_Shared/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/bias:0
+LSTM_Shared/Variable:0
+LSTM_Shared/Variable_1:0
+LSTM_Shared/Variable_2:0
+LSTM_Shared/Variable_3:0
+LSTM_Shared/Variable_4:0
+output-1-layer/FC-1/weights:0
+output-1-layer/FC-1/biases:0
+output-2-layer/FC-2/weights:0
+output-2-layer/FC-2/biases:0
+softmax_sentw:0
+softmax_sentb:0
+==================================================
+graph built
+
+ Training started ...
+batch:0.000000	valid_loss:101.113823	sentvalid_loss:1.438918
+sentiment classification:0.4025774777539122
+threshold:0.120000,other_thres:1.000000,acc:0.023013,f1_micro:0.000000, f1_macro:0.000000
+batch:50.000000	valid_loss:58.932434	sentvalid_loss:0.816663
+sentiment classification:0.6750536974532065
+threshold:0.120000,other_thres:1.000000,acc:0.542047,f1_micro:0.652273, f1_macro:0.459729
+batch:100.000000	valid_loss:53.945854	sentvalid_loss:0.858615
+sentiment classification:0.6302546793494938
+threshold:0.120000,other_thres:1.000000,acc:0.564265,f1_micro:0.670640, f1_macro:0.507893
+##################################################################
+batch:0.000000	valid_loss:56.573627	sentvalid_loss:0.909098
+sentiment classification:0.566738263270942
+threshold:0.120000,other_thres:1.000000,acc:0.543081,f1_micro:0.650755, f1_macro:0.494462
+batch:50.000000	valid_loss:52.924583	sentvalid_loss:0.805353
+sentiment classification:0.6563362994783676
+threshold:0.120000,other_thres:1.000000,acc:0.571472,f1_micro:0.683322, f1_macro:0.528420
+batch:100.000000	valid_loss:52.430225	sentvalid_loss:0.774264
+sentiment classification:0.6925437250690396
+threshold:0.120000,other_thres:1.000000,acc:0.568117,f1_micro:0.679419, f1_macro:0.530848
+##################################################################
+batch:0.000000	valid_loss:53.141411	sentvalid_loss:0.807823
+sentiment classification:0.649278919914084
+threshold:0.120000,other_thres:1.000000,acc:0.570833,f1_micro:0.678129, f1_macro:0.523012
+batch:50.000000	valid_loss:51.557156	sentvalid_loss:0.797134
+sentiment classification:0.6811905492482356
+threshold:0.120000,other_thres:1.000000,acc:0.580705,f1_micro:0.688984, f1_macro:0.544691
+batch:100.000000	valid_loss:53.468342	sentvalid_loss:0.770114
+sentiment classification:0.6937710954280454
+threshold:0.120000,other_thres:1.000000,acc:0.570343,f1_micro:0.681471, f1_macro:0.537836
+##################################################################
+batch:0.000000	valid_loss:54.591732	sentvalid_loss:0.772550
+sentiment classification:0.6940779380177968
+threshold:0.120000,other_thres:1.000000,acc:0.569079,f1_micro:0.679296, f1_macro:0.539443
+batch:50.000000	valid_loss:53.814835	sentvalid_loss:0.783858
+sentiment classification:0.6870205584535134
+threshold:0.120000,other_thres:1.000000,acc:0.575802,f1_micro:0.684966, f1_macro:0.545978
+batch:100.000000	valid_loss:56.469650	sentvalid_loss:0.861133
+sentiment classification:0.6652347345811599
+threshold:0.120000,other_thres:1.000000,acc:0.572905,f1_micro:0.681428, f1_macro:0.541584
+##################################################################
+batch:0.000000	valid_loss:57.697342	sentvalid_loss:0.847302
+sentiment classification:0.6511199754525928
+threshold:0.120000,other_thres:1.000000,acc:0.561648,f1_micro:0.668890, f1_macro:0.532019
+epoch: 0 	 time:700.93	loss:53.772522	valid_loss:56.106430	sentloss:0.750321	sentvalid_loss:0.848336
+sentiment classification:0.6689168456581773
+threshold:0.120000,other_thres:1.000000,acc:0.571509,f1_micro:0.678305, f1_macro:0.544311
+2018-05-31 17:50:04.126855: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:00:05.0)
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+best valid f1:0.580705	best epoch:0
+model restored
+sentiment classification:0.6811905492482356
+threshold:0.120000,other_thres:1.000000,acc:0.580705,f1_micro:0.688984, f1_macro:0.544691

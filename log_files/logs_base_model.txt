@@ -1,0 +1,54 @@
+2018-05-31 17:31:34.341799: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:31:34.341936: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:31:34.341958: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:31:34.341967: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:31:34.341976: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-31 17:31:34.464599: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-31 17:31:34.464941: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:00:05.0
+Total memory: 15.89GiB
+Free memory: 15.60GiB
+2018-05-31 17:31:34.464965: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-05-31 17:31:34.464972: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-05-31 17:31:34.464982: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:00:05.0)
+current dataset is SemEval18
+Building Graph attention_mechanism: self_att
+(?, 34000)
+optimization_mechanism: adam
+==================================================
+List of Variables:
+emb:0
+LSTM_TW/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/kernel:0
+LSTM_TW/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/bias:0
+LSTM_HT/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/kernel:0
+LSTM_HT/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/bias:0
+Variable:0
+Variable_1:0
+Variable_2:0
+Variable_3:0
+output-1-layer/FC-1/weights:0
+output-1-layer/FC-1/biases:0
+output-2-layer/FC-2/weights:0
+output-2-layer/FC-2/biases:0
+==================================================
+graph built
+
+ Training started ...
+epoch: 0 	 time:25.72	loss:71.198868	valid_loss:57.244850
+threshold:0.120000,other_thres:1.000000,acc:0.552608,f1_micro:0.661025, f1_macro:0.488782
+epoch: 1 	 time:34.78	loss:56.786259	valid_loss:54.879566
+threshold:0.120000,other_thres:1.000000,acc:0.565553,f1_micro:0.672186, f1_macro:0.519009
+epoch: 2 	 time:34.92	loss:48.823406	valid_loss:54.658901
+threshold:0.120000,other_thres:1.000000,acc:0.567014,f1_micro:0.673293, f1_macro:0.523400
+epoch: 3 	 time:35.66	loss:42.979641	valid_loss:58.716957
+threshold:0.120000,other_thres:1.000000,acc:0.554407,f1_micro:0.660520, f1_macro:0.524272
+epoch: 4 	 time:30.06	loss:37.461075	valid_loss:59.869873
+threshold:0.120000,other_thres:1.000000,acc:0.543594,f1_micro:0.652038, f1_macro:0.521318
+2018-05-31 17:34:44.693938: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:00:05.0)
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+best valid f1:0.673293	best epoch:2
+model restored
+threshold:0.120000,other_thres:1.000000,acc:0.567014,f1_micro:0.673293, f1_macro:0.523400

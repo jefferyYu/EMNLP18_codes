@@ -1,0 +1,16 @@
+docker_image: gcr.io/research-prototypes/jyu5-emotion
+nfs: jianfei-jf-vm
+
+gpu_type: "nvidia-tesla-p100"
+gpu_num: "1"
+cpu_num: "3"
+memory: "2"
+
+tensorboard: "/nfs"
+
+script:
+  pre_run_event: "cd /nfs/emotion-github/ec_lstm_kl_att_topic_other"
+  command: "python ec_main.py"
+
+  jobs:
+   - name: ec_base_model
