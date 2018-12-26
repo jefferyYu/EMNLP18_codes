@@ -13,14 +13,14 @@ This repository contains the following components:
 
 
 ### Steps to run the codes:
-- python ec_preprocess_4_model.py (https://gitlab.com/jefferyYu/emnlp18_codes/ec_lstm_kl_att_topic_other+sentiment_dasts2/)
-- python ec_data_build_kl_stdtok_py3.py (https://gitlab.com/jefferyYu/emnlp18_codes/ec_lstm_kl_att_topic_other+sentiment_dasts2/)
-- python ec_main.py (https://gitlab.com/jefferyYu/emnlp18_codes/ec_lstm_kl_att_topic_other/)
-- python ec_main.py (https://gitlab.com/jefferyYu/emnlp18_codes/ec_lstm_kl_att_topic_other+sentiment_dasts2/)
+- python ec_preprocess_4_model.py (https://gitlab.com/jefferyYu/emnlp18_codes/tree/master/ec_lstm_kl_att_topic_other+sentiment_dasts2/)
+- python ec_data_build_kl_stdtok_py3.py (https://gitlab.com/jefferyYu/emnlp18_codes/tree/master/ec_lstm_kl_att_topic_other+sentiment_dasts2/)
+- python ec_main.py (https://gitlab.com/jefferyYu/emnlp18_codes/tree/master/ec_lstm_kl_att_topic_other/)
+- python ec_main.py (https://gitlab.com/jefferyYu/emnlp18_codes/tree/master/ec_lstm_kl_att_topic_other+sentiment_dasts2/)
 
 ### Data for MLEC and SC
-- [Data for MLEC] (https://gitlab.com/jefferyYu/emnlp18_codes/data/) train, dev and test files from SemEval 2018 Task 1C.
-- [Data for SC] (https://gitlab.com/jefferyYu/emnlp18_codes/data_twitter/) merge the train, dev and test files from SemEval 2016 Task 4A together to have the 'twitter-2016_all.txt' file.
+- [Data for MLEC] (https://gitlab.com/jefferyYu/emnlp18_codes/tree/master/data/) train, dev and test files from SemEval 2018 Task 1C.
+- [Data for SC] (https://gitlab.com/jefferyYu/emnlp18_codes/tree/master/data_twitter/) merge the train, dev and test files from SemEval 2016 Task 4A together to have the 'twitter-2016_all.txt' file.
 
 Note that since the format of [Data for SC] is different from [Data for MLEC], we need to run this as shown above - [Data Preprocessor for changing the data format of SC to be consistent with MLEC].
 
@@ -34,5 +34,5 @@ Note that since the format of [Data for SC] is different from [Data for MLEC], w
 
 ### Running Examples and Results
 
-- [Log files] (https://gitlab.com/jefferyYu/emnlp18_codes/log_files/) To show the runing procedure and results, I also attach the log files of running our preprocessing, base model and proposed model codes under this folder.
+- [Log files] (https://gitlab.com/jefferyYu/emnlp18_codes/tree/master/log_files/) To show the runing procedure and results, I also attach the log files of running our preprocessing, base model and proposed model codes under this folder.
 
