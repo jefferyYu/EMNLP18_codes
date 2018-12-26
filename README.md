@@ -1,5 +1,19 @@
 # Improving Multi-Label Emotion Classification (MLEC) via Sentiment Classication (SC)
 
+Author
+
+Jianfei YU
+
+jfyu.2014@phdis.smu.edu.sg
+
+Mar 12, 2017
+
+## Data and Code for:
+
+Improving Multi-Label Emotion Classification via Sentiment Classification with Dual Attention Transfer Network
+EMNLP 2018
+http://aclweb.org/anthology/D18-1137
+
 (Here the labels for MLEC contain 11 emotions, which are respectively anger, anticipation, disgust, fear, joy, love, optimism, pessimism, sadness, surprise, trust;
 and the labels for SC are respectively neutral, positive and negative)
 
