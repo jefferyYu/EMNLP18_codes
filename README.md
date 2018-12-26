@@ -22,8 +22,8 @@ This repository contains the following components:
 
 - [Data Preprocessor for changing the data format of SC to be consistent with MLEC] at `ec_preprocess_4_model.py`
 - [Data Preprocessor for creating the pickle files for both MLEC and SC] at `ec_data_build_kl_stdtok_py3.py`
-- [Base Model without SC] at `ec_main.py`
-- [Proposed Dual Attention Model with SC] at `ec_main.py`
+- [Base Model without SC] at `ec_main.py` (https://github.com/jefferyYu/emnlp18_codes/tree/master/ec_lstm_kl_att_topic_other/)
+- [Proposed Dual Attention Model with SC] at `ec_main.py` (https://github.com/jefferyYu/emnlp18_codes/tree/master/ec_lstm_kl_att_topic_other+sentiment_dasts2/)
 
 
 ### Steps to run the codes:
