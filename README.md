@@ -45,6 +45,10 @@ Note that since the format of [Data for SC] is different from [Data for MLEC], w
 - [TensorFlow](https://www.tensorflow.org)
 - [Scikit-Learn](http://scikit-learn.org/stable/index.html)
 - [Numpy](http://www.numpy.org/)
+- [ekphrasis](https://github.com/cbaziotis/ekphrasis)
+- [ftfy](https://github.com/LuminosoInsight/python-ftfy)
+- [ujson](https://github.com/esnme/ultrajson)
+- [termcolor](https://github.com/hfeeki/termcolor)
 
 ### Running Examples and Results
 
