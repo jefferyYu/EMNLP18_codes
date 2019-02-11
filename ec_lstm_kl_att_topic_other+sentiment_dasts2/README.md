@@ -24,23 +24,6 @@ This repository contains the following components:
 
 Note that since the format of [Data for SC] is different from [Data for MLEC], we need to run this as shown above - [Data Preprocessor for changing the data format of SC to be consistent with MLEC].
 
-### Installation
-
-This is an ongoing document for MLEC projects. I recommend installation following the installation steps via these two links (https://github.sc-corp.net/Snapchat/research-utilities && https://github.sc-corp.net/Snapchat/research-utilities/tree/master/docker).
-
-For the docker image I use, it can be accessed via gcr.io/research-prototypes/jyu5-emotion, which is based on gcr.io/research-prototypes/jyu5-nlp-base (jyu5-nlp-base is the same as pradeep-nlp-base). Here, to further preprocess the twitter data, I also install the following packages by writing the following commands into my docker file:
-
-- FROM gcr.io/research-prototypes/jyu5-nlp-base
- 
-- RUN conda install gxx_linux-64
-- RUN pip install --upgrade pip
-- RUN pip install ekphrasis
-- RUN pip install ftfy
-- RUN pip install ujson
-- RUN pip install termcolor
- 
-- CMD [ "/bin/bash" ]
-
 
 ### Requirements
 
